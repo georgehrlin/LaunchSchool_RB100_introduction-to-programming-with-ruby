@@ -24,3 +24,11 @@ y = 0
 end
 puts x
 =end
+
+=begin
+Update: My answer above is wrong.
+The first program will print 3. This is because inner scope can access variables
+initialized in an outer scope (but not vice versa).
+The second program will produce an error, because a variable initialized in an
+inner scope cannot be accessed in an outer scope.
+=end
