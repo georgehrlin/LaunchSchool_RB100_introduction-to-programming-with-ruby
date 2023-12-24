@@ -15,7 +15,8 @@ contacts.each do |k, v|
 end
 =end
 
-=begin Version 01
+=begin 
+# Version 01
 contacts.each do |k, v|
   v[:email] = contact_data.first.first
   contact_data.first.shift
